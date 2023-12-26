@@ -1,0 +1,1993 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -dbg -e 100 -work alu_beta -2008  $dsn/src/DATA_FORWARDING.vhd $dsn/src/IB.vhd $dsn/src/RF.vhd $dsn/src/IB_FWDreg.vhd $dsn/src/ID_EXreg.vhd $dsn/src/EX_WBreg.vhd $dsn/src/EXECUTE_ENGINE.vhd $dsn/src/ALU.vhd $dsn/src/PMU.vhd $dsn/src/PMU_TB.vhd $dsn/src/test_write_file.vhd
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/DATA_FORWARDING.vhd
+# Error: COMP96_0001: Cannot find source file "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/DATA_FORWARDING.vhd".
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/IB.vhd
+# Compile Entity "IB"
+# Compile Architecture "behavioral" of Entity "IB"
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd
+# Compile Entity "RF"
+# Compile Architecture "behavioral" of Entity "RF"
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/IB_FWDreg.vhd
+# Compile Entity "IB_FWDreg"
+# Compile Architecture "Behavioral" of Entity "IB_FWDreg"
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ID_EXreg.vhd
+# Compile Entity "ID_EXreg"
+# Compile Architecture "Behavioral" of Entity "ID_EXreg"
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/EX_WBreg.vhd
+# Compile Entity "EX_WBreg"
+# Compile Architecture "Behavioral" of Entity "EX_WBreg"
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/EXECUTE_ENGINE.vhd
+# Compile Entity "EXECUTE_ENGINE"
+# Compile Architecture "behavioral" of Entity "EXECUTE_ENGINE"
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "behavioral" of Entity "ALU"
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU.vhd
+# Compile Entity "PMU"
+# Compile Architecture "structural" of Entity "PMU"
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd
+# Compile Entity "PMU_TB"
+# Compile Architecture "testbench" of Entity "PMU_TB"
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/test_write_file.vhd
+# Error: COMP96_0001: Cannot find source file "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/test_write_file.vhd".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  1.0 [s]
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  11:41 PM, Monday, December 4, 2023
+#  Simulation has been initialized
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run
+# EXECUTION:: ERROR  : Reg 1 unexpected value.
+# EXECUTION:: Time: 1710 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 2 unexpected value.
+# EXECUTION:: Time: 1730 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 3 unexpected value.
+# EXECUTION:: Time: 1750 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 4 unexpected value.
+# EXECUTION:: Time: 1770 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 5 unexpected value.
+# EXECUTION:: Time: 1790 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 6 unexpected value.
+# EXECUTION:: Time: 1810 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 7 unexpected value.
+# EXECUTION:: Time: 1830 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 11 unexpected value.
+# EXECUTION:: Time: 1910 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 15 unexpected value.
+# EXECUTION:: Time: 1990 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 16 unexpected value.
+# EXECUTION:: Time: 2010 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 17 unexpected value.
+# EXECUTION:: Time: 2030 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 18 unexpected value.
+# EXECUTION:: Time: 2050 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 19 unexpected value.
+# EXECUTION:: Time: 2070 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 20 unexpected value.
+# EXECUTION:: Time: 2090 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 21 unexpected value.
+# EXECUTION:: Time: 2110 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 22 unexpected value.
+# EXECUTION:: Time: 2130 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Overall Test Failed
+# EXECUTION:: Time: 2310 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  9:49 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1940 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1950 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1960 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1970 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1980 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1990 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2 us,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2010 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2020 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2030 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2040 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2050 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# EXECUTION:: NOTE   : Overall Test Passed.
+# EXECUTION:: Time: 2700 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  9:51 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1940 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1950 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1960 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1970 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1980 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1990 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2 us,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2010 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2020 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2030 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2040 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2050 ns,  Iteration: 1,  Instance: /PMU_TB/PMU_Instance/IB,  Process: line__25.
+# EXECUTION:: ERROR  : Reg 17 unexpected value.
+# EXECUTION:: Time: 2420 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Overall Test Failed
+# EXECUTION:: Time: 2700 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:05 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 190 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# EXECUTION:: ERROR  : Reg 1 unexpected value.
+# EXECUTION:: Time: 1560 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 2 unexpected value.
+# EXECUTION:: Time: 1580 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 3 unexpected value.
+# EXECUTION:: Time: 1600 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 4 unexpected value.
+# EXECUTION:: Time: 1620 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 5 unexpected value.
+# EXECUTION:: Time: 1640 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 6 unexpected value.
+# EXECUTION:: Time: 1660 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 7 unexpected value.
+# EXECUTION:: Time: 1680 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 11 unexpected value.
+# EXECUTION:: Time: 1760 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 15 unexpected value.
+# EXECUTION:: Time: 1840 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 16 unexpected value.
+# EXECUTION:: Time: 1860 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 17 unexpected value.
+# EXECUTION:: Time: 1880 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 18 unexpected value.
+# EXECUTION:: Time: 1900 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 19 unexpected value.
+# EXECUTION:: Time: 1920 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 20 unexpected value.
+# EXECUTION:: Time: 1940 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 21 unexpected value.
+# EXECUTION:: Time: 1960 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 22 unexpected value.
+# EXECUTION:: Time: 1980 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Overall Test Failed
+# EXECUTION:: Time: 2160 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:07 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 190 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# EXECUTION:: ERROR  : Reg 1 unexpected value.
+# EXECUTION:: Time: 1560 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 2 unexpected value.
+# EXECUTION:: Time: 1580 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 3 unexpected value.
+# EXECUTION:: Time: 1600 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 4 unexpected value.
+# EXECUTION:: Time: 1620 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 5 unexpected value.
+# EXECUTION:: Time: 1640 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 6 unexpected value.
+# EXECUTION:: Time: 1660 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 7 unexpected value.
+# EXECUTION:: Time: 1680 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 11 unexpected value.
+# EXECUTION:: Time: 1760 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 15 unexpected value.
+# EXECUTION:: Time: 1840 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 16 unexpected value.
+# EXECUTION:: Time: 1860 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 17 unexpected value.
+# EXECUTION:: Time: 1880 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 18 unexpected value.
+# EXECUTION:: Time: 1900 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 19 unexpected value.
+# EXECUTION:: Time: 1920 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 20 unexpected value.
+# EXECUTION:: Time: 1940 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 21 unexpected value.
+# EXECUTION:: Time: 1960 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 22 unexpected value.
+# EXECUTION:: Time: 1980 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Overall Test Failed
+# EXECUTION:: Time: 2160 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:08 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 190 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# EXECUTION:: ERROR  : Reg 1 unexpected value.
+# EXECUTION:: Time: 1560 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 2 unexpected value.
+# EXECUTION:: Time: 1580 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 3 unexpected value.
+# EXECUTION:: Time: 1600 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 4 unexpected value.
+# EXECUTION:: Time: 1620 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 5 unexpected value.
+# EXECUTION:: Time: 1640 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 6 unexpected value.
+# EXECUTION:: Time: 1660 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 7 unexpected value.
+# EXECUTION:: Time: 1680 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 11 unexpected value.
+# EXECUTION:: Time: 1760 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 15 unexpected value.
+# EXECUTION:: Time: 1840 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 16 unexpected value.
+# EXECUTION:: Time: 1860 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 17 unexpected value.
+# EXECUTION:: Time: 1880 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 18 unexpected value.
+# EXECUTION:: Time: 1900 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 19 unexpected value.
+# EXECUTION:: Time: 1920 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 20 unexpected value.
+# EXECUTION:: Time: 1940 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 21 unexpected value.
+# EXECUTION:: Time: 1960 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 22 unexpected value.
+# EXECUTION:: Time: 1980 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Overall Test Failed
+# EXECUTION:: Time: 2160 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:09 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: Stopped at time 110 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 190 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: stopped at time: 210 ns
+run 100 ns
+# KERNEL: stopped at time: 310 ns
+run 100 ns
+# KERNEL: stopped at time: 410 ns
+run 100 ns
+# KERNEL: stopped at time: 510 ns
+run 100 ns
+# KERNEL: stopped at time: 610 ns
+run 100 ns
+# KERNEL: stopped at time: 710 ns
+run 100 ns
+# KERNEL: stopped at time: 810 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:09 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: Stopped at time 110 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 190 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: stopped at time: 210 ns
+run 100 ns
+# KERNEL: stopped at time: 310 ns
+run 100 ns
+# KERNEL: stopped at time: 410 ns
+run 100 ns
+# KERNEL: stopped at time: 510 ns
+run 100 ns
+# KERNEL: stopped at time: 610 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:10 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: Stopped at time 110 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 190 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: stopped at time: 210 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:11 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: ERROR  : TextIO internal error: Could not read type "STRING" from line.
+# KERNEL: Time: 80 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# KERNEL: Stopped at time 90 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 170 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# EXECUTION:: ERROR  : Reg 1 unexpected value.
+# EXECUTION:: Time: 1540 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 2 unexpected value.
+# EXECUTION:: Time: 1560 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 3 unexpected value.
+# EXECUTION:: Time: 1580 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 4 unexpected value.
+# EXECUTION:: Time: 1600 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 5 unexpected value.
+# EXECUTION:: Time: 1620 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 6 unexpected value.
+# EXECUTION:: Time: 1640 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 7 unexpected value.
+# EXECUTION:: Time: 1660 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 11 unexpected value.
+# EXECUTION:: Time: 1740 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 15 unexpected value.
+# EXECUTION:: Time: 1820 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 16 unexpected value.
+# EXECUTION:: Time: 1840 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 17 unexpected value.
+# EXECUTION:: Time: 1860 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 18 unexpected value.
+# EXECUTION:: Time: 1880 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 19 unexpected value.
+# EXECUTION:: Time: 1900 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 20 unexpected value.
+# EXECUTION:: Time: 1920 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 21 unexpected value.
+# EXECUTION:: Time: 1940 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 22 unexpected value.
+# EXECUTION:: Time: 1960 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Overall Test Failed
+# EXECUTION:: Time: 2140 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:11 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: ERROR  : TextIO internal error: Could not read type "STRING" from line.
+# KERNEL: Time: 80 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# KERNEL: Stopped at time 90 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 170 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: stopped at time: 190 ns
+run 100 ns
+# KERNEL: stopped at time: 290 ns
+run 100 ns
+# KERNEL: stopped at time: 390 ns
+run 100 ns
+# KERNEL: stopped at time: 490 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:13 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: Stopped at time 130 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 210 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: stopped at time: 230 ns
+run 100 ns
+# KERNEL: stopped at time: 330 ns
+run 100 ns
+# KERNEL: stopped at time: 430 ns
+run 100 ns
+# KERNEL: stopped at time: 530 ns
+run 100 ns
+# KERNEL: stopped at time: 630 ns
+run 100 ns
+# KERNEL: stopped at time: 730 ns
+run 100 ns
+# KERNEL: stopped at time: 830 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:14 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: Stopped at time 130 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 210 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: stopped at time: 230 ns
+run 100 ns
+# KERNEL: stopped at time: 330 ns
+run 100 ns
+# KERNEL: stopped at time: 430 ns
+run 100 ns
+# KERNEL: stopped at time: 530 ns
+run 100 ns
+# KERNEL: stopped at time: 630 ns
+run 100 ns
+# KERNEL: stopped at time: 730 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:15 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: Stopped at time 130 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 210 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: stopped at time: 230 ns
+run 100 ns
+# KERNEL: stopped at time: 330 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:16 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: Stopped at time 130 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 210 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: stopped at time: 230 ns
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+step
+step
+run 100 ns
+# KERNEL: Stopped at time 310 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:17 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: Stopped at time 130 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 210 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: stopped at time: 230 ns
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+step
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:18 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run 100 ns
+# KERNEL: Stopped at time 0 ps + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 0 ps + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 0 ps + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 10 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: stopped at time: 110 ns
+run 100 ns
+# KERNEL: Stopped at time 130 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: Stopped at time 140 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 140 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 150 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 160 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 170 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 170 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 180 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 190 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 190 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 190 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 200 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 200 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 210 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 210 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: Stopped at time 210 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 210 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 220 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 220 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 240 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 240 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 260 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 260 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6481 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:22 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: Stopped at time 0 ps + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 0 ps + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 0 ps + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 10 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: stopped at time: 110 ns
+run 100 ns
+# KERNEL: Stopped at time 170 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: Stopped at time 180 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 180 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 190 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 200 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 210 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 210 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 220 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 240 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 240 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 250 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: Stopped at time 250 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 260 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 260 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 280 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 280 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 290 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 290 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 290 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 300 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 300 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 252 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+acom -dbg -e 100 -work alu_beta -2008  $dsn/src/RF.vhd
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd
+# Compile Entity "RF"
+# Compile Architecture "behavioral" of Entity "RF"
+# Error: COMP96_0019: RF.vhd : (185, 6): Keyword 'then' expected.
+# Error: COMP96_0019: RF.vhd : (202, 4): Keyword 'end' expected.
+# Error: COMP96_0019: RF.vhd : (205, 11): Keyword 'process' expected.
+# Error: COMP96_0019: RF.vhd : (208, 4): Keyword 'end' expected.
+# Error: COMP96_0016: RF.vhd : (212, 4): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -dbg -e 100 -work alu_beta -2008  $dsn/src/RF.vhd
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd
+# Compile Entity "RF"
+# Compile Architecture "behavioral" of Entity "RF"
+# Error: COMP96_0019: RF.vhd : (185, 6): Keyword 'then' expected.
+# Error: COMP96_0019: RF.vhd : (209, 4): Keyword 'end' expected.
+# Error: COMP96_0015: RF.vhd : (258, 7): ';' expected.
+# Error: COMP96_0016: RF.vhd : (258, 14): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -dbg -e 100 -work alu_beta -2008  $dsn/src/RF.vhd
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd
+# Compile Entity "RF"
+# Compile Architecture "behavioral" of Entity "RF"
+# Error: COMP96_0019: RF.vhd : (187, 5): Keyword 'then' expected.
+# Error: COMP96_0019: RF.vhd : (209, 4): Keyword 'end' expected.
+# Error: COMP96_0015: RF.vhd : (258, 7): ';' expected.
+# Error: COMP96_0016: RF.vhd : (258, 14): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work alu_beta -2008  $dsn/src/RF.vhd
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd
+# Compile Entity "RF"
+# Compile Architecture "behavioral" of Entity "RF"
+# Error: COMP96_0121: RF.vhd : (183, 26): The type bounds of this range are not compatible.
+# Error: COMP96_0077: RF.vhd : (183, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work alu_beta -2008  $dsn/src/RF.vhd
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd
+# Compile Entity "RF"
+# Compile Architecture "behavioral" of Entity "RF"
+# Error: COMP96_0121: RF.vhd : (183, 27): The type bounds of this range are not compatible.
+# Error: COMP96_0077: RF.vhd : (183, 10): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work alu_beta -2008  $dsn/src/RF.vhd
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd
+# Compile Entity "RF"
+# Compile Architecture "behavioral" of Entity "RF"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -dbg -e 100 -work alu_beta -2008  $dsn/src/RF.vhd
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd
+# Compile Entity "RF"
+# Compile Architecture "behavioral" of Entity "RF"
+# Error: COMP96_0049: RF.vhd : (183, 60): Syntax error in expression.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6482 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:26 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+acom -dbg -e 100 -work alu_beta -2008  $dsn/src/RF.vhd
+# File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd
+# Compile Entity "RF"
+# Compile Architecture "behavioral" of Entity "RF"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+run
+# KERNEL: Stopped at time 0 ps + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 0 ps + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 0 ps + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 10 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: stopped at time: 110 ns
+run 100 ns
+# KERNEL: Stopped at time 130 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: Stopped at time 140 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 140 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 150 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 160 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 170 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 170 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 180 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 190 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 190 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 190 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 190 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 200 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 200 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 200 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 210 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 210 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: Stopped at time 210 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 210 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 210 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 210 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 220 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 220 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 220 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 240 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 240 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 240 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 260 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 260 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 260 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 280 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 280 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 280 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 290 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 290 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 290 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 290 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 290 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6482 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:29 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: Stopped at time 0 ps + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 0 ps + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 0 ps + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 10 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 80 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: Stopped at time 90 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 90 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 100 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 110 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 120 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 120 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 130 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 140 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 140 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 140 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 140 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 150 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 150 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 150 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 160 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 160 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: Stopped at time 160 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 160 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 160 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 160 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 170 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 170 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 170 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 180 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 180 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 180 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 180 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+run 100 ns
+# KERNEL: Stopped at time 180 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 180 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 190 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 190 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 190 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 200 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 200 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 200 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 210 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 210 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 210 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 220 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 220 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 220 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 240 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 240 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 240 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 260 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 260 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 260 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 280 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 280 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 280 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 290 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 290 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 300 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 258 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6482 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:31 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: Stopped at time 80 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: Stopped at time 140 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 150 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 160 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: Stopped at time 160 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 160 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 170 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 180 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 180 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+run 100 ns
+# KERNEL: Stopped at time 180 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 190 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 200 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 210 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 220 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 240 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 260 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 280 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: stopped at time: 380 ns
+run 100 ns
+# KERNEL: stopped at time: 480 ns
+run 100 ns
+# KERNEL: stopped at time: 580 ns
+run 100 ns
+# KERNEL: stopped at time: 680 ns
+run 100 ns
+# KERNEL: stopped at time: 780 ns
+run 100 ns
+# KERNEL: stopped at time: 880 ns
+run 100 ns
+# KERNEL: stopped at time: 980 ns
+run 100 ns
+# KERNEL: stopped at time: 1080 ns
+run 100 ns
+# KERNEL: stopped at time: 1180 ns
+run 100 ns
+# KERNEL: stopped at time: 1280 ns
+run 100 ns
+# KERNEL: stopped at time: 1380 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6482 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:32 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: Stopped at time 120 ns + 0.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/PMU_TB.vhd" at line 197 in process of instance "/PMU_TB/stimulus_process".
+run 100 ns
+# KERNEL: Stopped at time 180 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 190 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 200 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: Stopped at time 200 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 200 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 210 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 220 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 220 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+run 100 ns
+# KERNEL: Stopped at time 220 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 230 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 240 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 240 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 250 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 260 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 260 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+run 100 ns
+# KERNEL: Stopped at time 260 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 270 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 280 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 280 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 290 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 300 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 300 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+run 100 ns
+# KERNEL: Stopped at time 300 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 310 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 320 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 320 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 330 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 340 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 340 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+run 100 ns
+# KERNEL: Stopped at time 340 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 350 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 360 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 360 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 370 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 380 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 380 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+run 100 ns
+# KERNEL: Stopped at time 380 ns + 5.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 390 ns + 1.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: Stopped at time 400 ns + 2.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" at line 183 in process of instance "/PMU_TB/PMU_Instance/RF/line__82".
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7153 kB (elbread=427 elab2=6482 kernel=244 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Chris\Desktop\PRESENTATION\PMU Source and Text Files\ALU_Beta\src\wave.asdb
+#  10:33 AM, Tuesday, December 5, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 200 ns,  Iteration: 2,  Instance: /PMU_TB/PMU_Instance/RF,  Process: line__82.
+# KERNEL: Stopped at time 220 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+run
+# KERNEL: Stopped at time 260 ns + 3.
+# Stopped in "C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/ALU.vhd" at line 1534 in process of instance "/PMU_TB/PMU_Instance/ALU/line__45".
+run
+# EXECUTION:: ERROR  : Reg 1 unexpected value.
+# EXECUTION:: Time: 1570 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 2 unexpected value.
+# EXECUTION:: Time: 1590 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 3 unexpected value.
+# EXECUTION:: Time: 1610 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 4 unexpected value.
+# EXECUTION:: Time: 1630 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 5 unexpected value.
+# EXECUTION:: Time: 1650 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 6 unexpected value.
+# EXECUTION:: Time: 1670 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 7 unexpected value.
+# EXECUTION:: Time: 1690 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 11 unexpected value.
+# EXECUTION:: Time: 1770 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 15 unexpected value.
+# EXECUTION:: Time: 1850 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 16 unexpected value.
+# EXECUTION:: Time: 1870 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 17 unexpected value.
+# EXECUTION:: Time: 1890 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 18 unexpected value.
+# EXECUTION:: Time: 1910 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 19 unexpected value.
+# EXECUTION:: Time: 1930 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 20 unexpected value.
+# EXECUTION:: Time: 1950 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 21 unexpected value.
+# EXECUTION:: Time: 1970 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Reg 22 unexpected value.
+# EXECUTION:: Time: 1990 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# EXECUTION:: ERROR  : Overall Test Failed
+# EXECUTION:: Time: 2170 ns,  Iteration: 0,  Instance: /PMU_TB,  Process: stimulus_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.

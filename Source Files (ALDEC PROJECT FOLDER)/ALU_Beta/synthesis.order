@@ -1,0 +1,13 @@
+i<>.\src\ALU.vhd
+i<>.\src\r3 test.vhd
+i<>.\src\PMU_TB.vhd
+i<>.\src\PMU.vhd
+i<>.\src\IB.vhd
+i<>.\src\IB_FWDreg.vhd
+i<>.\src\RF.vhd
+i<>.\src\IB_EXreg.vhd
+i<>.\src\EXECUTE_ENGINE.vhd
+i<>.\src\EX_WBreg.vhd
+i<>.\src\DATA_FORWARDING.vhd
+i<>.\src\register_file.vhd
+i<>.\src\test_write_file.vhd

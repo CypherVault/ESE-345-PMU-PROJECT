@@ -1,0 +1,4 @@
+MESSAGE "File: C:/Users/Chris/Desktop/PRESENTATION/PMU Source and Text Files/ALU_Beta/src/RF.vhd" 
+MESSAGE "Compile Entity "RF"" 
+MESSAGE "Compile Architecture "behavioral" of Entity "RF"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 
