@@ -6,6 +6,8 @@ Instructor: Mikhail Dorojevets
 
 This work is of Christopher Nielsen and Uma Sivadasan and all code was ran and tested in a Windows 10 environemnt on Aldec HDL 14.
 
+The Synthizing of the VHDL logic was done with Synplify Pro for the ahrdware platform of a Lattice MachX03L (LCMOX3L_6900C : BG256C : -5).
+
 Warnings and Disclaimers
 THESE FILES ARE PROVIDED FOR REFERENCE USE ONLY.
 
