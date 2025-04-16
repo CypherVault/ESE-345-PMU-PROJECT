@@ -1,0 +1,11 @@
+.\src\DATA_FORWARDING.vhd
+.\src\IB.vhd
+.\src\RF.vhd
+.\src\IB_FWDreg.vhd
+.\src\ID_EXreg.vhd
+.\src\EX_WBreg.vhd
+.\src\EXECUTE_ENGINE.vhd
+.\src\ALU.vhd
+.\src\PMU.vhd
+.\src\PMU_TB.vhd
+.\src\test_write_file.vhd

@@ -1,0 +1,45 @@
+Active-HDL 13.0.376.8320 2023-12-03 00:58:14
+
+Elaboration top modules:
+Architecture                  testbench(PMU_TB)
+
+
+--------------------------------------------------------------------------------------------------
+Entity         | Architecture | Library  | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------
+PMU_TB         | testbench    | alu_beta |      | 13.0.376.8320 (Windows64) | -dbg -2008
+PMU            | structural   | alu_beta |      | 13.0.376.8320 (Windows64) | -dbg -2008
+IB             | behavioral   | alu_beta |      | 13.0.376.8320 (Windows64) | -dbg -2008
+IB_FWDreg      | Behavioral   | alu_beta |      | 13.0.376.8320 (Windows64) | -dbg -2008
+RF             | behavioral   | alu_beta |      | 13.0.376.8320 (Windows64) | -dbg -2008
+ID_EXreg       | Behavioral   | alu_beta |      | 13.0.376.8320 (Windows64) | -dbg -2008
+EXECUTE_ENGINE | behavioral   | alu_beta |      | 13.0.376.8320 (Windows64) | -dbg -2008
+ALU            | behavioral   | alu_beta |      | 13.0.376.8320 (Windows64) | -dbg -2008
+EX_WBreg       | Behavioral   | alu_beta |      | 13.0.376.8320 (Windows64) | -dbg -2008
+--------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
+VHDL Package                  | Library  | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------
+standard                      | std      |      |                           | <unavailable>
+TEXTIO                        | std      |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                | ieee     |      | 13.0.376.8320 (Windows64) |  -2008
+STD_LOGIC_TEXTIO              | ieee     |      | 13.0.376.8320 (Windows64) | <unavailable>
+NUMERIC_STD                   | ieee     |      | 13.0.376.8320 (Windows64) |  -2008
+std_logic_arith               | ieee     |      | 13.0.376.8320 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED            | ieee     |      | 13.0.376.8320 (Windows64) | <unavailable>
+--------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
+Library                       | Comment
+--------------------------------------------------------------------------------------------------
+alu_beta                      | None
+ieee                          | Standard IEEE packages library
+std                           | Standard VHDL library
+--------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+PMU_TB PMU_TB testbench
+
+
+The performance of simulation is reduced. Version Student Edition
